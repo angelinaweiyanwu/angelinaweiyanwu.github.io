@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  color:blueviolet;
+  text-align: center;
+}
+
+p { 
+  color:aquamarine;
+  text-align: center;
+}
+img {
+  float:center
+}
