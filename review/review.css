@@ -1,10 +1,13 @@
 body {
     background-color:lightblue;
   }
-<<<<<<< HEAD
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
 img {
     height: 400px;
 }
-=======
-  
->>>>>>> 738a78fd0cba9fadf50b65cbef546a2580cd00a5
+
