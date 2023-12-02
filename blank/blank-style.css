@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-color: lightblue;
 }
@@ -39,3 +40,46 @@ p {
 }
 
 /* commment */
+=======
+body {
+  background-color: lightblue;
+}
+#home{
+  color:red;
+}
+.text-box{
+  text-align: center;
+
+}
+h1 {
+  color: darkblue;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+h2 {
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+h3 {
+  color:blueviolet;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+p { 
+  color:aquamarine;
+  text-align: center;
+}
+.image-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image-text-box img {
+  max-width: 100%; 
+}
+
+/* commment */
+>>>>>>> 738a78fd0cba9fadf50b65cbef546a2580cd00a5
