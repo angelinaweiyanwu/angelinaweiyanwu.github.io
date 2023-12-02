@@ -2,7 +2,7 @@ body {
     background-color:lightblue;
   }
   header {
-    background-color: #333;
+    background-color:brown;
     color: white;
     text-align: center;
     padding: 1em;
@@ -11,7 +11,7 @@ img {
     height: 400px;
 }
 nav {
-  background-color: #444;
+  background-color: brown;
   color: white;
   padding: 0.5em;
 }
@@ -30,7 +30,7 @@ article {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
-  background-color: #333;
+  background-color: blue;
   color: white;
   text-align: center;
   padding: 1em;
