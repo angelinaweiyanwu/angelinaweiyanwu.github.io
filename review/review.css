@@ -10,6 +10,18 @@ body {
 img {
     height: 400px;
 }
+nav {
+  background-color: #444;
+  color: white;
+  padding: 0.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin-right: 10px;
+}
 article {
   background-color: white;
   padding: 20px;
