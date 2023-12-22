@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pommes – Wikipedia</title>
+</head>
+<body>
 
+    <header>
+        <h1>Pommes</h1>
+    </header>
+
+    <section>
+        <h2>Definition</h2>
+        <p>Pommes, auch als Kartoffelchips bekannt, sind dünn geschnittene und frittierte Kartoffelscheiben. Sie sind ein beliebter Snack.</p>
+    </section>
+
+    <section>
+        <h2>Geschichte</h2>
+        <p>Die ersten Pommes wurden im 19. Jahrhundert in den USA erfunden. Seitdem sind sie zu einem weltweit beliebten Snack geworden.</p>
+    </section>
+
+    <section>
+        <h2>Zubereitung</h2>
+        <p>Um Pommes zuzubereiten, werden Kartoffeln geschält, in dünne Scheiben geschnitten und dann frittiert, bis sie knusprig sind. Sie können mit verschiedenen Gewürzen gewürzt werden.</p>
+    </section>
+
+    <footer>
+        <p>Quelle: <a href="https://de.wikipedia.org/wiki/Pommes" target="_blank">Wikipedia</a></p>
+    </footer>
+
+</body>
+</html>
+08
