@@ -4,13 +4,16 @@
 <head>
     <title>Pommes FakeWikipedia</title>
     <style>
-        body {
+         body {
+            display: flex;
+            flex-direction: row;
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
         }
 
-        header {
+        header, footer {
+            width: 20%; /* Breite der Menüleiste */
             background-color: #f2f2f2;
             padding: 10px;
             text-align: center;
@@ -21,7 +24,9 @@
         }
 
         section {
+            width: 80%; /* Breite des Inhaltsbereichs */
             margin-bottom: 20px;
+            padding: 0 20px;
         }
 
         footer {
