@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 60px 100px 20px;
+    background-color: pink;
+    color: white;
 }
 
 .menu-list {
