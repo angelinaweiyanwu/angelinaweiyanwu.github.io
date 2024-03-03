@@ -1,28 +1,46 @@
 :root {
-    --primary: #987554;
+  --primary: #987554;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 20%;
+  align-items: center;
+  padding: 1.5%;
+  background-color: black;
+  margin:0;
+  h2 {
+    color:#987554;
   }
-  header{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    height: 65px;
-    align-items: center;
-    padding: 40px;
-    h2 {
-      color:#987554;
-    }
+}
+
+
+.header-div{
+display: flex;
+width: 100%;
+justify-content: space-between;
+height: 65px;
+align-items: center;
+padding: 40px;
+color: black;
+font-size: 1.2rem;
+text-transform: uppercase;
+h2 {
+  color:#987554;
+}
 
 }
 .nav{
-    font-weight: 700;
-    text-decoration: none;
-    
+  font-weight: 700;
+  text-decoration: none;
+  
 }
 .nav ul {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  list-style-type: none;
+display: flex;
+gap: 20px;
+align-items: center;
+list-style-type: none;
 }
 nav a{
 text-decoration: none;
@@ -37,7 +55,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-body {
+.bodydiv {
 height: 100vh;
 display: grid;
 place-items: center;
@@ -45,8 +63,8 @@ background-color: black;
 color: rgba(255, 255, 255, 0.85);
 
 & span {
-    color: var(--primary);
-  }
+  color: var(--primary);
+}
 }
 
 main {
@@ -55,15 +73,15 @@ height: 600px;
 font: 0.7rem impact, sans-serif;
 
 & header {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin-bottom: 2.25rem;
-  color: white;
+font-size: 1.2rem;
+text-transform: uppercase;
+margin-bottom: 2.25rem;
+color: white;
 }
 
 & section {
-  display: flex;
-  gap: 2rem;
+display: flex;
+gap: 2rem;
 }
 }
 
@@ -76,9 +94,9 @@ list-style-type: none;
 font-size: 1rem;
 
 & li {
-  padding: 1rem;
-  border: 1px solid transparent;
-  cursor: pointer;
+padding: 1rem;
+border: 1px solid transparent;
+cursor: pointer;
 }
 }
 
@@ -108,26 +126,26 @@ opacity: 0;
 transform: translateY(-5rem);
 
 & h3 {
-  font-family: helvetica;
-  font-weight: 900;
-  font-size: 1rem;
-  border-bottom: 1.5px solid white;
-  padding-bottom: 1rem;
+font-family: helvetica;
+font-weight: 900;
+font-size: 1rem;
+border-bottom: 1.5px solid white;
+padding-bottom: 1rem;
 }
 
 & p {
-  font-family: helvetica;
-  font-weight: 100;
-  line-height: 2;
-  color: rgba(255, 255, 255, 0.7);
+font-family: helvetica;
+font-weight: 100;
+line-height: 2;
+color: rgba(255, 255, 255, 0.7);
 }
 
 }
 
 @keyframes content {
 100% {
-  opacity: 1;
-  transform: translateY(0);
+opacity: 1;
+transform: translateY(0);
 }
 }
 
@@ -138,26 +156,30 @@ opacity: 0;
 transform: translateX(2rem);
 
 &::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+content: "";
+position: absolute;
+inset: 0;
 
-  mix-blend-mode: multiply;
+mix-blend-mode: multiply;
 }
 
 & img {
-  width: inherit;
-  height: inherit;
-  object-fit: cover;
+width: inherit;
+height: inherit;
+object-fit: cover;
 }
 }
 
 @keyframes image {
 100% {
-  opacity: 1;
-  width: 300px;
-  transform: translateX(0);
+opacity: 1;
+width: 300px;
+transform: translateX(0);
 }
+}
+
+body{
+color: black;
 }
 
 .active .tab {
